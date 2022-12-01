@@ -12,6 +12,17 @@ html{
     background-size: cover;
     background-color:aliceblue;
 }
+#myworks{
+    
+    
+    
+}
+#myabout{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/Portfolio/background.png");
+    background-size: cover;
+}
 body{
     margin: 0;
 }
@@ -82,23 +93,80 @@ nav ul li a:hover{
     color: #fff;
     border-color: #000;
 }
-/* #splash1{
-    float:left;
-    margin-top: -650px;
-    margin-left: 40px;
-    background: transparent;
-    
-}
-#splash2{
-    text-underline-position: above;
+#network{
+  
     float:right;
-    align-content: right;
-    height: 1200px;
-    size: 1000px;
-    align-self: left;
-    margin-top: 0;
-} */
-h1{
+    padding-top: 5%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+} 
+#main-font{
     font-size: 10px;
 
+}
+/* --------------------------Sin Up Page---------------------------- */
+#signup-one{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/Portfolio/background.png");
+    padding-top: 10px;
+    
+}
+#container{
+    padding-top: 50px;
+    margin :auto;
+    height: 600px;
+    width: 59%;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #fff;
+}
+form{
+    padding-right: 100px;
+    padding-left: 1px;
+}
+#table{
+    margin-bottom: 50px;
+    
+}
+#error1,#error2,#error3,#error4,#error5,#error6{
+    padding: 8px 100px;
+    font-size: 15px;
+    border-collapse: collapse;
+}
+
+
+#computer{
+    height: 50%;
+}
+input{
+    padding: 13px 100px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px #cbced1,
+                -10px -10px 20px #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: black;
+}
+#submit:hover{
+    box-shadow: -10px -10px 20px #cbced1,
+                10px 10px 20px #fff;
+}
+#signup-one h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500px;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eef3f8;
+    text-shadow: 0 0 10px #FF0000, 0 0 5px #0000FF;
+    
 }
