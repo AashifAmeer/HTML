@@ -1,0 +1,104 @@
+/* Front Page*/
+html{
+    scroll-behavior: smooth;
+}
+#front,#myworks{
+    height: 100vh;
+    width: 100%;
+    
+}
+#front{
+    background-image: url("/Portfolio/splash44.png");
+    background-size: cover;
+    background-color:aliceblue;
+}
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+#menu{
+    display: flex;
+    list-style-type:none;
+}
+nav ul li{
+    padding-left: 150px;;
+}
+nav ul li a{
+    border: 3px solid;
+    background-color: transparent;
+    
+    text-decoration:none ;
+    padding: 7px 20px;
+    
+    border-radius: 20px;
+    transition: .4s;
+    letter-spacing: 1px;
+}
+#service,#about,#news{
+    color:#fff;
+    border-color:#fff;
+}
+#service:hover,#about:hover,#news:hover{
+    border-color: #000;
+    background-color: blueviolet;
+
+}
+nav ul li #home{
+    color: #000;
+    border: 3px solid #000;
+}
+nav ul li #home:hover{
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+nav ul li a:hover{
+    border-radius: 0;
+}
+#front #sign-login{
+    padding-top: 16px;
+    padding-left:200px ;
+}
+#front #sign-login a{
+    text-align: center;
+    border: 3px solid rgb(16, 22, 27);
+    padding: 7px 20px ;
+    text-decoration: none;
+    margin-right: 80px;
+    background-color: transparent;
+    color: rgb(16, 22, 27);
+    transition: .4s;
+    letter-spacing: 1px;
+}
+#front #sign-login a:hover{
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+    border-color: #000;
+}
+/* #splash1{
+    float:left;
+    margin-top: -650px;
+    margin-left: 40px;
+    background: transparent;
+    
+}
+#splash2{
+    text-underline-position: above;
+    float:right;
+    align-content: right;
+    height: 1200px;
+    size: 1000px;
+    align-self: left;
+    margin-top: 0;
+} */
+h1{
+    font-size: 10px;
+
+}
