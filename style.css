@@ -9,7 +9,7 @@ html{
     justify-content: center;
 }
 #front{
-    background-image: url("/Portfolio/splash44.png");
+    background-image: url("Portfolio/splash44.png");
     background-size: cover;
     background-color:aliceblue;
 }
