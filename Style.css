@@ -1,120 +1,186 @@
-*{
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+/* Front Page*/
+html{
+    scroll-behavior: smooth;
+}
+#front,#myworks{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+#front{
+    background-image: url("/Portfolio/splash44.png");
+    background-size: cover;
+    background-color:aliceblue;
+}
+#myworks{
+    
+    
+    
+}
+#myabout{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/Portfolio/background.png");
+    background-size: cover;
+}
+body{
     margin: 0;
-    font-family: 'Josefin Sans',sans-serif;
-    box-sizing: border-box;
-
 }
-.hero{
-    height:100vh;
-    width:100%;
-    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url('beauty.jpg') ;
-   background-size: cover;
-   background-position: center;
 
-}
 nav{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top:45px;
-    padding-left:8%;
-    padding-right:8%;
-
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
 }
-.logo{
-    color:white;
-    font-size: 35px;
-    letter-spacing: 1px;
-    cursor: pointer;
-
-}
-span{
-    color: red;
-
+#menu{
+    display: flex;
+    list-style-type:none;
 }
 nav ul li{
-    list-style-type: none;
-    display:inline-block;
-    padding:10px 25px ;
-    
+    padding-left: 150px;;
 }
-nav ul li a {
-    color:white;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
+nav ul li a{
+    border: 3px solid;
+    background-color: transparent;
     
+    text-decoration:none ;
+    padding: 7px 20px;
+    
+    border-radius: 20px;
+    transition: .4s;
+    letter-spacing: 1px;
+}
+#service,#about,#news{
+    color:#fff;
+    border-color:#fff;
+}
+#service:hover,#about:hover,#news:hover{
+    border-color: #000;
+    background-color: blueviolet;
+
+}
+nav ul li #home{
+    color: #000;
+    border: 3px solid #000;
+}
+nav ul li #home:hover{
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
 }
 nav ul li a:hover{
-    color:red;
-    transition:0.3s;
-
+    border-radius: 0;
 }
-.btn{
-    background-color: red;
-    color:white;
+#front #sign-login{
+    padding-top: 16px;
+    padding-left:200px ;
+}
+#front #sign-login a{
+    text-align: center;
+    border: 3px solid rgb(16, 22, 27);
+    padding: 7px 20px ;
     text-decoration: none;
-    border: 2px solid transparent;
-    border-radius: 30px;
-    padding:10px 25px;
-    font-weight:bold;
-    transition: transform 0.4s;
-
+    margin-right: 80px;
+    background-color: transparent;
+    color: rgb(16, 22, 27);
+    transition: .4s;
+    letter-spacing: 1px;
 }
-.btn:hover{
-    transform:scale(1.2);
+#front #sign-login a:hover{
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+    border-color: #000;
 }
-.content{
-    position:absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
+#network{
+  
+    float:right;
+    padding-top: 5%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+} 
+#main-font{
+    
+    font-size: 100px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Mrs Saint Delafield', cursive;
+    margin-top: 200px;
+    color: aliceblue;
+    letter-spacing: 5px;
+    background-image: url("/Portfolio/nigth_camp.jpg");
+    background-size: cover;
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
 }
-h1{
-    color: white;
-    margin:  20px 0px 20px;
-    font-size: 75px;
-
-}
-h3{
-    color: white;
-    font-size: 25px;
-    margin-bottom: 50px;
-
-}
-h4{
-    color:#fcfc;
-    letter-spacing: 2px;
-    font-size: 20px;
-
-}
-.newsletter form{
-    width:380px;
-    max-width: 100%;
-    position: relative;
-
-}
-.newsletter form input:first-child{
-    display: inline-block;
-
+/* --------------------------Sin Up Page---------------------------- */
+#signup-one{
+    height: 100vh;
     width: 100%;
-    padding: 14px 130px 14px 15px;
-    border: 2px solid red;
-    outline: none;
-    border-radius: 30px;
+    background-image: url("/Portfolio/background.png");
+    padding-top: 10px;
+    
 }
-.newsletter form input:last-child{
-    position: absolute;
-    display: inline-block;
-    outline: none;
-    padding: 10px 30px;
-    border-radius: 30px;
-    background-color: red;
-    color: white;
-    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-    top:6px;
-    right:6px;
+#container{
+    padding-top: 50px;
+    margin :auto;
+    height: 600px;
+    width: 59%;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 11px 11px 20px #cbced1,
+                -11px -11px 20px #fff;
+}
+form{
+    padding-right: 100px;
+    padding-left: 1px;
+}
+#table{
+    margin-bottom: 50px;
+    
+}
+#error1,#error2,#error3,#error4,#error5,#error6{
+    padding: 8px 100px;
+    font-size: 15px;
+    border-collapse: collapse;
 }
 
 
+#computer{
+    height: 50%;
+}
+input{
+    padding: 13px 100px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px #cbced1,
+                -10px -10px 20px #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: black;
+}
+#submit:hover{
+    box-shadow: -10px -10px 20px #cbced1,
+                10px 10px 20px #fff;
+}
+#signup-one h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 1000px;
+    letter-spacing: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+}
+/* ------------------------ Login Page ------------------------ */
