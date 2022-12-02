@@ -17,7 +17,7 @@ html{
 #myabout{
     height: 100vh;
     width: 100%;
-    background-image: url("/Portfolio/background.png");
+    background-image: url("Portfolio/background.png");
     background-size: cover;
 }
 body{
@@ -108,7 +108,7 @@ nav ul li a:hover{
     margin-top: 200px;
     color: aliceblue;
     letter-spacing: 5px;
-    background-image: url("/Portfolio/nigth_camp.jpg");
+    background-image: url("Portfolio/nigth_camp.jpg");
     background-size: cover;
     background-clip: text;
     background-repeat: no-repeat;
@@ -120,7 +120,7 @@ nav ul li a:hover{
 #signup-one{
     height: 100vh;
     width: 100%;
-    background-image: url("/Portfolio/background.png");
+    background-image: url("Portfolio/background.png");
     padding-top: 10px;
     
 }
